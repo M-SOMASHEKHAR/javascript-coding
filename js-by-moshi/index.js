@@ -1,8 +1,8 @@
  console.log('hello world!');
 
  // value of variable in js is undefined
- let name = 'Jimmy';
- console.log(name);
+let userName = 'Jimmy';
+console.log(userName);
 
  /*
  variable naming rules
@@ -23,3 +23,8 @@
 */
 
 
+// constants
+const interestRate = 0.3;
+console.log(interestRate);
+// interestRate = 1;
+// console.log(interestRate);
