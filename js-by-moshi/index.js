@@ -43,5 +43,20 @@ console.log(isApproved);
 
 let firstName = undefined;
 console.log(firstName);
-let selectedColor = 'null';
+let selectedColor = null;
 console.log(selectedColor);
+
+//reference types
+//object : object in real life
+let person = {
+    name : "Sony",
+    age : 30
+};
+console.log(person);
+
+//dot notation
+console.log(person.name);
+
+person['name']='John';
+//bracket nodtation
+console.log(person['name']);
